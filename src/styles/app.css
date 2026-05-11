@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f7;
+}
+
+.app {
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+
+.dark {
+  background: #1f1f1f;
+  color: white;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 24px;
+
+  background: #ff4f87;
+  color: white;
+}
+
+.navbar button {
+  background: white;
+  color: black;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* INTRO */
+
+.intro {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* INPUTS */
+
+.input-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* CARDS */
+
+.card {
+  width: 180px;
+
+  background: white;
+
+  margin: 10px;
+  padding: 18px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.dark .card {
+  background: #2b2b2b;
+}
+
+/* HISTORY */
+
+.history {
+  padding: 20px;
+}
+
+.history h2 {
+  text-align: center;
+}
+
+.history-item {
+  background: white;
+
+  width: 260px;
+
+  margin: 10px auto;
+  padding: 14px;
+
+  border-radius: 12px;
+}
+
+.dark .history-item {
+  background: #2b2b2b;
+}
+
+/* BUTTONS */
+
+button {
+  padding: 10px 14px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #ff4f87;
+  color: white;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.page {
+  text-align: center;
+  padding: 40px;
+}
