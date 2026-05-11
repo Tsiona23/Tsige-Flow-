@@ -152,35 +152,60 @@ period-tracker/
 │ │ ├── Card.jsx
 
 │ │ ├── CalendarView.jsx
+
 │ │ ├── ConfirmationModal.jsx
+
 │ │ ├── CycleForm.jsx
+
 │ │ ├── Dashboard.jsx
+
 │ │ ├── History.jsx
+
 │ │ ├── MainLayout.jsx
+
 │ │ └── Navbar.jsx
+
 │ │
 │ ├── hooks/
+
 │ │ └── useLocalStorage.js
+
 │ │
 │ ├── pages/
+
 │ │ ├── Analytics.jsx
+
 │ │ ├── Home.jsx
+
 │ │ └── settings.jsx
+
 │ │
 │ ├── utils/
+
 │ │ ├── insightEngine.js
+
 │ │ ├── recommendations.js
+
 │ │ ├── smartCycle.js
+
 │ │ └── smartPredictions.js
+
 │ │
 │ └── App.jsx
+
 │
 ├── index.html
+
 ├── package.json
+
 ├── tailwind.config.js
+
 ├── vite.config.js
+
 ├── .gitignore
+
 └── README.md
+
 
 ---
 
