@@ -140,11 +140,17 @@ Theme:
 ## 📁 Project Structure
 
 period-tracker/
+
 ├── public/
+
 ├── src/
+
 │ ├── components/
+
 │ │ ├── AppContext.jsx
+
 │ │ ├── Card.jsx
+
 │ │ ├── CalendarView.jsx
 │ │ ├── ConfirmationModal.jsx
 │ │ ├── CycleForm.jsx
