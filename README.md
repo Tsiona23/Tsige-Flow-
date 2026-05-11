@@ -206,7 +206,6 @@ period-tracker/
 
 └── README.md
 
-
 ---
 
 ## 💡 Future Improvements
